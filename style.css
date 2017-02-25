@@ -1,21 +1,20 @@
 html {
-  border-width: thick;
-  border-style: solid;
+  width: 901px;
 }
 
 li
 {
-    list-style-image: url('http://bit.ly/qunMkL');
-    list-style-position: inside;
+  list-style-image: url('http://bit.ly/qunMkL');
+  list-style-position: inside;
 }
 nav {
   display: flex;
   justify-content: space-between;
 }
 #logo {
- display:flex;
- justify-content: flex-start;
- align-items: center;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 #logo img {
   margin-right: 0;
@@ -40,12 +39,28 @@ nav {
   display:block;
 }
 #social{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 
 }
 #social img {
   width:24px;
   height:24px;
+  padding: 0 .1em;
+}
+
+#line {
+  background-color: lightgray;
+  width: 100%;
+  height: 1em;
+}
+
+#choco-pizza {
+  width: 901px;
+  height: 603px;
+}
+
+.paragraphs {
+  text-indent: 2em;
 }
