@@ -1,9 +1,51 @@
 html {
-  border: 2px black;
+  border-width: thick;
+  border-style: solid;
 }
 
 li
 {
     list-style-image: url('http://bit.ly/qunMkL');
     list-style-position: inside;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+#logo {
+ display:flex;
+ justify-content: flex-start;
+ align-items: center;
+}
+#logo img {
+  margin-right: 0;
+}
+#logo h3{
+  font-style: italic;
+  font-family: cursive;
+  font-size: 1.2em;
+  /*border-style: solid;*/
+  margin-bottom: 0;
+  margin-left: 0;
+}
+#logo p {
+  margin-top:0;
+  font-size: 0.7em;
+  /*border-style: solid;*/
+  margin-left: 0;
+}
+
+.text h3 p {
+  border-style: solid;
+  display:block;
+}
+#social{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+#social img {
+  width:24px;
+  height:24px;
 }
