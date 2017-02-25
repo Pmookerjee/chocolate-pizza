@@ -50,7 +50,7 @@ nav {
   padding: 0 .1em;
 }
 
-#line {
+.line {
   background-color: lightgray;
   width: 100%;
   height: 1em;
@@ -63,4 +63,22 @@ nav {
 
 .paragraphs {
   text-indent: 2em;
+}
+
+#recipe {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(list-bg.png);
+}
+ul {
+  list-style-image: url('http://bit.ly/qunMkL');
+  list-style-position: inside;
+}
+
+.recipe_list {
+  font-size: .8em;
+}
+
+#col2 {
+  margin-right: 5%;
 }
