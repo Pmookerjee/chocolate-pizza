@@ -1,0 +1,9 @@
+html {
+  border: 2px black;
+}
+
+li
+{
+    list-style-image: url('http://bit.ly/qunMkL');
+    list-style-position: inside;
+}
